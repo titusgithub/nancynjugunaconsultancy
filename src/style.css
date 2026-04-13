@@ -132,6 +132,20 @@
     background-size: 200% 100%;
     animation: shimmer 2s linear infinite;
   }
+  .shimmer-overlay {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    animation: shimmer-slide 3s infinite;
+    pointer-events: none;
+  }
+  @keyframes shimmer-slide {
+    0% { left: -100%; }
+    100% { left: 100%; }
+  }
 
   /* ── Stat Card ── */
   .stat-card {
