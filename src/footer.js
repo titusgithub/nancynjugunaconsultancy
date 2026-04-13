@@ -14,7 +14,7 @@ export function renderFooter() {
 
         <!-- Col 1: Brand -->
         <div class="footer-brand-col">
-          <a href="/index.html" class="footer-logo" aria-label="Nancy Njuguna Home">
+          <a href="index.html" class="footer-logo" aria-label="Nancy Njuguna Home">
             <span class="footer-logo-name">Nancy Njuguna</span><span class="footer-logo-dot">.</span>
           </a>
           <p class="footer-tagline">
@@ -34,7 +34,7 @@ export function renderFooter() {
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
             </a>
             <!-- YouTube -->
-            <a href="/videos.html" class="footer-social-icon" aria-label="Videos">
+            <a href="videos.html" class="footer-social-icon" aria-label="Videos">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
             </a>
           </div>
@@ -47,12 +47,12 @@ export function renderFooter() {
             Quick Links
           </h3>
           <ul class="footer-links-list">
-            <li><a href="/index.html" class="footer-link">Home</a></li>
-            <li><a href="/about.html" class="footer-link">About Nancy</a></li>
-            <li><a href="/services.html" class="footer-link">Services</a></li>
-            <li><a href="/videos.html" class="footer-link">Media &amp; Videos</a></li>
-            <li><a href="/contact.html" class="footer-link">Contact</a></li>
-            <li><a href="/contact.html" class="footer-link font-medium text-primary dark:text-primary-400">Book a Free Consultation</a></li>
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="about.html" class="footer-link">About Nancy</a></li>
+            <li><a href="services.html" class="footer-link">Services</a></li>
+            <li><a href="videos.html" class="footer-link">Media &amp; Videos</a></li>
+            <li><a href="contact.html" class="footer-link">Contact</a></li>
+            <li><a href="contact.html" class="footer-link font-bold text-primary-300 transition-colors">Book a Free Consultation</a></li>
           </ul>
         </div>
 
@@ -63,11 +63,11 @@ export function renderFooter() {
             Services
           </h3>
           <ul class="footer-links-list">
-            <li><a href="/services.html" class="footer-link">Executive Coaching</a></li>
-            <li><a href="/services.html" class="footer-link">Career Consulting</a></li>
-            <li><a href="/services.html" class="footer-link">Leadership Development</a></li>
-            <li><a href="/services.html" class="footer-link">CV &amp; Interview Prep</a></li>
-            <li><a href="/services.html" class="footer-link">Corporate Training</a></li>
+            <li><a href="services.html" class="footer-link">Executive Coaching</a></li>
+            <li><a href="services.html" class="footer-link">Career Consulting</a></li>
+            <li><a href="services.html" class="footer-link">Leadership Development</a></li>
+            <li><a href="services.html" class="footer-link">CV &amp; Interview Prep</a></li>
+            <li><a href="services.html" class="footer-link">Corporate Training</a></li>
           </ul>
         </div>
 

@@ -34,6 +34,9 @@ export function setupThemeToggle() {
     document.querySelectorAll('.theme-toggle-btn').forEach(btn => {
       btn.innerHTML = dark ? sunIcon : moonIcon;
     });
+
+    // Dispatch event so other components (like mobile menu) can react
+    window.dispatchEvent(new CustomEvent('themeChanged', { detail: { isDark: dark } }));
   };
 
   // Initial application

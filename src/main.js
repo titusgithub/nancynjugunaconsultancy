@@ -52,6 +52,9 @@ const setupMobileMenu = () => {
   menu.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', closeMenu);
   });
+
+  // Close the menu when the theme is changed
+  window.addEventListener('themeChanged', closeMenu);
 };
 
 

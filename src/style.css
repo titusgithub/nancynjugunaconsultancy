@@ -107,7 +107,7 @@
 
   /* ── Navbar ── */
   .nav-link {
-    @apply text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary-300 transition-all duration-300 font-medium relative;
+    @apply text-primary-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary-300 transition-all duration-300 font-medium relative;
   }
   .nav-link::after {
     content: '';
@@ -358,9 +358,8 @@
 }
 .footer-link {
   font-size: 0.75rem;
-  color: rgba(255,255,255,0.55);
+  @apply text-primary-300 transition-all duration-300;
   text-decoration: none;
-  transition: color 0.25s ease, padding-left 0.25s ease;
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
@@ -375,7 +374,7 @@
   flex-shrink: 0;
 }
 .footer-link:hover {
-  color: #fff;
+  @apply text-primary-100;
   padding-left: 0.4rem;
 }
 .footer-link:hover::before {
@@ -413,13 +412,13 @@
 }
 .footer-contact-text {
   font-size: 0.8rem;
-  color: rgba(255,255,255,0.55);
+  @apply text-primary-300;
   text-decoration: none;
   line-height: 1.75rem;
   transition: color 0.25s;
 }
 a.footer-contact-text:hover {
-  color: #fff;
+  @apply text-primary-100;
 }
 
 /* ── Bottom Bar ── */
