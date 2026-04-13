@@ -142,36 +142,11 @@ const setupContactForm = () => {
   if (!form) return;
 
   form.addEventListener('submit', (e) => {
-    e.preventDefault();
+    // We allow the default submission to FormSubmit.co
     const btn = form.querySelector('button');
     const originalHTML = btn.innerHTML;
     
-    btn.innerHTML = `
-      <svg class="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
-        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-      </svg>
-      <span class="ml-2">Sending...</span>
-    `;
-    btn.disabled = true;
-    btn.classList.add('opacity-80');
-
-    setTimeout(() => {
-      btn.innerHTML = `
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
-        <span class="ml-2">Sent Successfully!</span>
-      `;
-      btn.classList.remove('opacity-80');
-      btn.classList.add('from-green-600', 'to-green-700', 'bg-green-600');
-      
-      form.reset();
-      
-      setTimeout(() => {
-        btn.innerHTML = originalHTML;
-        btn.disabled = false;
-        btn.classList.remove('from-green-600', 'to-green-700', 'bg-green-600');
-      }, 3000);
-    }, 1500);
+    // Note: The redirection will happen automatically by FormSubmit.co
   });
 };
 
