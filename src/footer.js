@@ -18,7 +18,7 @@ export function renderFooter() {
             <span class="footer-logo-name">Nancy Njuguna</span><span class="footer-logo-dot">.</span>
           </a>
           <p class="footer-tagline">
-            Executive Career Coach &amp; Consultant empowering professionals across Africa to reach their highest potential.
+            Consultant specializing in Training, Soft Skills Curriculum Development, and Youth Development Programs across Africa.
           </p>
           <div class="footer-socials">
             <!-- WhatsApp -->
