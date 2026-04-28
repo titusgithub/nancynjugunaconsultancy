@@ -57,7 +57,7 @@
 
   /* ── Premium Card ── */
   .premium-card {
-    @apply bg-white dark:bg-slate-900/80 p-8 rounded-3xl border border-slate-100/80 dark:border-slate-800 shadow-card
+    @apply bg-white dark:bg-slate-900/80 p-6 md:p-8 rounded-3xl border border-slate-100/80 dark:border-slate-800 shadow-card
     hover:shadow-card-hover hover:-translate-y-1 dark:hover:shadow-glow
     transition-all duration-500 ease-out text-slate-800 dark:text-slate-200;
   }
